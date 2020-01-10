@@ -84,6 +84,7 @@ class duplicity::params {
       $duply_version = $::operatingsystemmajrelease ? {
         '6' => '1.6.0',
         '7' => '1.11',
+        '8' => '1.11',
       }
     }
     default: {
